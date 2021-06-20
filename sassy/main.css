@@ -142,4 +142,11 @@ body section#primary a {
     padding: 15px 60px;
   }
 }
+
+@media (max-width: 839px) {
+  body section#primary a {
+    display: inline-block;
+    padding: 15px 90px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

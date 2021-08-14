@@ -24,12 +24,13 @@ body{
 #mainNavbar{
     font-size: 1.5rem;
     font-weight: 100;
-    
+    background-color: #8f4760;
 }
 
 #mainNavbar .navbar-brand{
-color: #ea1c2c;
-font-size: 1.5rem;
+    color: #E22836;
+    font-size: 1.5rem;
+    font-weight: bolder;    
 }
 
 #mainNavbar .nav-link{
@@ -62,5 +63,15 @@ font-size: 1.5rem;
     }
     .blurb h2{
         font-size: 2rem;
+    }
+}
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    }
+    .img-fluid{
+        margin-top: 60px;
     }
 }
